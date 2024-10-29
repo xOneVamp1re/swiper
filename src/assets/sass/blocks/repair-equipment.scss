@@ -1,0 +1,21 @@
+.repair-equipment {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 0;
+  background: rgb(248, 248, 248);
+  &__title {
+    color: #7e7e82;
+    text-transform: uppercase;
+    padding: 16px;
+    min-height: 80px;
+    background: linear-gradient(
+      45deg,
+      rgb(248, 248, 248),
+      rgb(255, 255, 255) 98.614%
+    );
+  }
+  &-wrapper {
+    padding: 16px 0 24px;
+  }
+}
